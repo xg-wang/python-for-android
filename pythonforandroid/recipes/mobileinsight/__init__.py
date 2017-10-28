@@ -11,8 +11,8 @@ LOCAL_DEBUG = False
 
 class MobileInsightRecipe(Recipe):
 
-    mi_git            = 'https://github.com/mobile-insight/mobileinsight-core.git'
-    mi_branch         = 'master'
+    mi_git            = 'https://github.com/xg-wang/mobileinsight-core.git'
+    mi_branch         = 'vis-porj'
     local_src         = '/home/vagrant/mi-dev/mobileinsight-core'
     version           = '2.5'
     toolchain_version = 4.9          # default GCC toolchain version we try to use
